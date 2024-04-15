@@ -63,8 +63,8 @@ def augment_image(image_path, output_folder):
     cv2.imwrite(output_path, noise_image)
 
 # Specify the input and output folders
-input_folder = "/home/jann/Documents/uni/research/CV-10-midjourney-image-splitter/cut_images"
-output_folder = "/home/jann/Documents/uni/research/CV-test-11-Image Augmentation/midjourney_augmented_images"
+input_folder = "your/path/to/your/input_folder1"
+output_folder = "your/path/to/your/output-folder1"
 
 # Create the output folder if it doesn't exist
 os.makedirs(output_folder, exist_ok=True)
